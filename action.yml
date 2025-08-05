@@ -136,8 +136,8 @@ runs:
             echo "Nothing to commit"
           else
             git \
-              -c "user.name=drmingdrmer" \
-              -c "user.email=drdr.xp@gmail.com" \
+              -c "user.name=wangzhaode" \
+              -c "user.email=hi@zhaode.wang" \
               commit \
               -m "md2zhihu built"
           fi

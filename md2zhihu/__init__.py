@@ -1304,10 +1304,10 @@ class Config(object):
         cmdpass('git', 'init', **x)
         cmdpass('git', 'add', '.', **x)
         cmdpass('git',
-                '-c', "user.name='drmingdrmer'",
-                '-c', "user.email='drdr.xp@gmail.com'",
+                '-c', "user.name='wangzhaode'",
+                '-c', "user.email='hi@zhaode.wang'",
                 'commit', '--allow-empty',
-                '-m', '\n'.join(['Built pages by md2zhihu by drdr.xp@gmail.com',
+                '-m', '\n'.join(['Built pages by wangzhaode by hi@zhaode.wang',
                                  '',
                                  'CLI args:',
                                  args_str,
@@ -1548,7 +1548,6 @@ def main():
     #
     # md2zhihu a.md --output-dir res/ --repo a@branch --platform xxx --md-output b.md
     #
-    # TODO then test drmingdrmer.github.io with action
 
     parser = argparse.ArgumentParser(
         description='Convert markdown to zhihu compatible',
